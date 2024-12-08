@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "../api/api";
-// import "../style/Form.css"
+import "../../assets/css/Form.css"
 
 const UserForm = () => {
   const [formData, setFormData] = useState({
@@ -36,4 +36,3 @@ const UserForm = () => {
 };
 
 export default UserForm;
- 

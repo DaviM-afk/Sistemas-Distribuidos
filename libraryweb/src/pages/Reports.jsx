@@ -1,5 +1,5 @@
 import ReportsComponent from "../components/Reports";
-// import "../style/Home.css"
+import "../../assets/css/Reports.css";
 
 const Reports = () => {
   return (
