@@ -1,8 +1,11 @@
-##  Sistema de Gerenciamento de Biblioteca - Sistema  Sistemas  Distribuídos
+Library Monticello
+--------------------------------------
+Disciplina: Sistemas Distribuídos
 
 
 📄Descrição do projeto
 -------------------------------------
+Sistema de Gerenciamento de Biblioteca
 
 
 🛠️Como baixar o repositório e fluxo de trabalho
