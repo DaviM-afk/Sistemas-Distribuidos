@@ -30,23 +30,23 @@ const Home = () => {
 
       {activeForm === "book" && (
         <div>
-          <h2>Add a New Book</h2>
+          <h2>Adicionar</h2>
           <BookForm />
-          <button className="home-back-button" onClick={handleGoBack}>Back</button>
+          <button className="home-back-button" onClick={handleGoBack}>Voltar</button>
         </div>
       )}
       {activeForm === "user" && (
         <div>
-          <h2>Add a New User</h2>
+          <h2>Adicionar</h2>
           <UserForm />
-          <button className="home-back-button" onClick={handleGoBack}>Back</button>
+          <button className="home-back-button" onClick={handleGoBack}>Voltar</button>
         </div>
       )}
       {activeForm === "loan" && (
         <div>
-          <h2>Add a New Loan</h2>
+          <h2>Adicionar</h2>
           <LoanForm />
-          <button className="home-back-button" onClick={handleGoBack}>Back</button>
+          <button className="home-back-button" onClick={handleGoBack}>Voltar</button>
         </div>
       )}
     </div>

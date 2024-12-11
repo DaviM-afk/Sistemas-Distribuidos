@@ -86,14 +86,14 @@ const UserList = () => {
               type="text"
               name="name"
               value={form.name}
-              placeholder="Name"
+              placeholder="Nome"
               onChange={handleInputChange}
             />
             <input
               type="email"
               name="email"
               value={form.email}
-              placeholder="Email"
+              placeholder="E-mail"
               onChange={handleInputChange}
             />
             <div className="buttonGroup">

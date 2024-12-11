@@ -26,11 +26,11 @@ const UserForm = () => {
 
   return (
     <form className="form-container" onSubmit={handleSubmit}>
-      <input name="name" value={formData.name} onChange={handleChange} placeholder="Name" required />
-      <input name="email" value={formData.email} onChange={handleChange} placeholder="Email" required />
-      <input name="address" value={formData.address} onChange={handleChange} placeholder="Address" />
-      <input name="phone" value={formData.phone} onChange={handleChange} placeholder="Phone" />
-      <button type="submit">Add User</button>
+      <input name="name" value={formData.name} onChange={handleChange} placeholder="Nome" required />
+      <input name="email" value={formData.email} onChange={handleChange} placeholder="E-mail" required />
+      <input name="address" value={formData.address} onChange={handleChange} placeholder="Endereço" />
+      <input name="phone" value={formData.phone} onChange={handleChange} placeholder="Telefone" />
+      <button type="submit">Adicionar</button>
     </form>
   );
 };

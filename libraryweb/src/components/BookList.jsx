@@ -94,28 +94,28 @@ const BookList = () => {
               type="text"
               name="title"
               value={form.title}
-              placeholder="Title"
+              placeholder="Titulo"
               onChange={handleInputChange}
             />
             <input
               type="text"
               name="author"
               value={form.author}
-              placeholder="Author"
+              placeholder="Autor"
               onChange={handleInputChange}
             />
             <input
               type="text"
               name="genre"
               value={form.genre}
-              placeholder="Genre"
+              placeholder="Genero"
               onChange={handleInputChange}
             />
             <input
               type="number"
               name="publicationYear"
               value={form.publicationYear}
-              placeholder="Year"
+              placeholder="Ano"
               onChange={handleInputChange}
             />
             <div className="buttonGroup">
