@@ -53,8 +53,10 @@ Antes de começar, certifique-se de que seu ambiente atenda aos seguintes requis
 ### 🐳 Docker (opcional para uso com contêineres)
 - **Docker Desktop** (Windows/Mac) ou **Docker Engine** (Linux).
   - Instale o Docker Desktop a partir do site oficial: [https://www.docker.com/get-started](https://www.docker.com/get-started).
+
   - Instale o Docker no WSL2 no Windows:
- [https://code.visualstudio.com/blogs/2020/03/02/docker-in-wsl2](Usando o docker no Subsistema do Windows para Linux - versão 2)
+ [https://code.visualstudio.com/blogs/2020/03/02/docker-in-wsl2]
+(Usando o docker no Subsistema do Windows para Linux - versão 2)
 
 ### 🌐 Node.js e npm
 - **Node.js** na versão `18.20.4`.
